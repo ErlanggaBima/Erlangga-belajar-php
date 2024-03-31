@@ -1,0 +1,55 @@
+/* CSS Dasar */
+.body {
+    background-image: url('image/Company.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    padding: 20px; /* Tambahkan padding */
+    margin-top: 150px;
+}
+
+.form-container {
+    width: 100%; /* Lebar form 100% */
+    max-width: 400px; /* Batasi lebar form */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+   
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.error {
+    color: red;
+}
+
+.col-md-4 img {
+    max-width: 100%;
+    height: auto;
+  
+}
+
+/* Media Queries untuk Responsif */
+@media (min-width: 768px) {
+    .form-container {
+        padding: 40px; /* Sesuaikan padding pada layar lebih besar */
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-4 {
+        flex: 0 0 50%; /* Set lebar gambar menjadi 50% pada layar besar */
+        max-width: 50%;
+    }
+    .col-md-8 {
+        flex: 0 0 50%; /* Set lebar form menjadi 50% pada layar besar */
+        max-width: 50%;
+    }
+}

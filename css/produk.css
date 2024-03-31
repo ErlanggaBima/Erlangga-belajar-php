@@ -1,0 +1,49 @@
+.navbar .logout-btn {
+    color: white;
+    background-color: red;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.produk {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.produk img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.produk h2 {
+    margin-top: 0;
+    margin-bottom: 0; /* tambahkan margin bottom agar tidak menumpuk dengan paragraf */
+}
+
+.deskripsi-harga {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.deskripsi-harga p {
+    margin-bottom: 0;
+}
+
+@media (max-width: 576px) {
+    .deskripsi-harga {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
